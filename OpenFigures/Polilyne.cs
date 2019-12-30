@@ -8,5 +8,10 @@ namespace HierarchyOfGeometricShapes.OpenFigure
 {
     class Polilyne : Line
     {
+        public Polilyne(int x, int y)
+            : base(x, y)
+        {
+                
+        }
     }
 }

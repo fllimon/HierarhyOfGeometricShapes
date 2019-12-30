@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BL.cs" />
     <Compile Include="ClosedFigures\Circle.cs" />
     <Compile Include="ClosedFigures\ClosedFigure.cs" />
     <Compile Include="ClosedFigures\Elipce.cs" />

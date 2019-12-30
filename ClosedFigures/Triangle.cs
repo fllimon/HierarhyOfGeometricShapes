@@ -8,6 +8,12 @@ namespace HierarchyOfGeometricShapes.ClosedFigures
 {
     class Triangle : Polygon
     {
+        #region ======----- PRIVATE DATA ----======
+
+        private int _height = -1;
+
+        #endregion
+
         #region =====----- CONSTRUCTORS -----======
 
         /// <summary>
@@ -15,12 +21,27 @@ namespace HierarchyOfGeometricShapes.ClosedFigures
         /// </summary>
         /// <param name="x">Координата по X</param>
         /// <param name="y">Координата по Y</param>
-        /// <param name="firstSide">Первая длинна стороны фигуры</param>
-        /// <param name="secondSide">Вторая длинна стороны фигуры</param>
-        public Triangle(int x, int y, int firstSide, int secondSide)
-            : base(x, y, firstSide, secondSide)
+        /// <param name="height">Высота</param>
+        public Triangle(int x, int y, int height)
+            : base(x, y)
         {
+            _height = height;
+        }
 
+        #endregion
+
+        #region =====----- PROPERTIES ----======
+
+        public int Height
+        {
+            get 
+            {
+                return _height; 
+            }
+            set
+            {
+                _height = value; 
+            }
         }
 
         #endregion

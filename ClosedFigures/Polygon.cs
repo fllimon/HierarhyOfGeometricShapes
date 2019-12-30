@@ -15,6 +15,17 @@ namespace HierarchyOfGeometricShapes.ClosedFigures
         /// </summary>
         /// <param name="x">Координата по X</param>
         /// <param name="y">Координата по Y</param>
+        public Polygon(int x, int y)
+            : base(x, y)
+        {
+
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="x">Координата по X</param>
+        /// <param name="y">Координата по Y</param>
         /// <param name="firstSide">Первая длинна стороны фигуры</param>
         /// <param name="secondSide">Вторая длинна стороны фигуры</param>
         public Polygon(int x, int y, int firstSide, int secondSide)

@@ -16,6 +16,12 @@ namespace HierarchyOfGeometricShapes.ClosedFigures
 
         #region =====----- CONSTRUCTORS ----=====
 
+        public Elipce(int x, int y)
+            : base(x, y)
+        {
+
+        }
+
         /// <summary>
         /// 
         /// </summary>

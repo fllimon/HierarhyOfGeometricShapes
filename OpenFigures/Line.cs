@@ -8,5 +8,10 @@ namespace HierarchyOfGeometricShapes.OpenFigure
 {
     class Line : Point
     {
+        public Line(int x, int y)
+            : base(x, y)
+        {
+
+        }
     }
 }

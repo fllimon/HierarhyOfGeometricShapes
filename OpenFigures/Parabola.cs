@@ -8,5 +8,10 @@ namespace HierarchyOfGeometricShapes.OpenFigure
 {
     class Parabola : Point
     {
+        public Parabola(int x, int y)
+            : base(x, y)
+        {
+
+        }
     }
 }
